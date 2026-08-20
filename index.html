@@ -852,9 +852,9 @@
 
     // Mettre à jour le lien de téléchargement du CV selon la langue
     const cvLinks = {
-      fr: "Curriculum Vitae-PDF/Roumaissa_BENABAS_CV_FR.pdf",
-      en: "Curriculum Vitae-PDF/Roumaissa_BENABAS_CV_EN.pdf",
-      ar: "Curriculum Vitae-PDF/Roumaissa_BENABAS_CV_FR.pdf"
+      fr: "https://drive.google.com/file/d/1E55PCYACSCyMFy8y0FC5oSQIQYPqPBiq/view?usp=sharing",
+      en: "https://drive.google.com/file/d/1E55PCYACSCyMFy8y0FC5oSQIQYPqPBiq/view?usp=sharing",
+      ar: "https://drive.google.com/file/d/1E55PCYACSCyMFy8y0FC5oSQIQYPqPBiq/view?usp=sharing"
     };
     const cvElement = document.querySelector('[data-i18n="contact_doc_link"]');
     if (cvElement) cvElement.href = cvLinks[lang] || cvLinks.fr;
